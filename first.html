@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>One Div Left, Two Divs Right</title>
+<style>
+    .container {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        margin-top: 0;
+       
+        height: 150px;
+    }
+
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: #0a0a0a;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+
+    .right-side {
+        display: flex;
+        gap: 8px;   }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="box"></div>
+
+    <div class="right-side">
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</div>
+
+</body>
+</html>
